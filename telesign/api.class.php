@@ -156,8 +156,8 @@ class Telesign {
 	 * General verify function that support for child function
 	 * 
 	 * @param string $phone_number The phone number to send to service
-	 * @param string $service Service that this function use
 	 * @param array $options More optional data to send to service
+         * @param string $service Service that this function use
 	 * 
 	 * @return string The fully formed response object repersentation of the JSON reply
 	 */
