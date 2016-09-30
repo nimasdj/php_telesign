@@ -1,12 +1,5 @@
 <?php
 
-/*
-  Copyright (c) TeleSign Corporation 2012.
-  License: MIT
-  Support email address "support@telesign.com"
-  Author: lqm1010
- */
-
 /**
  * This file defines the the API SDK for Telesign
  * 
