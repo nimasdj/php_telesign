@@ -11,12 +11,6 @@
  * @author lqm1010 <lqm1010@gmail.com>
  */
 
-/**
-* Telesign Class is common class for PhoneId and Verify class to extends
-*
-* @package  Telesign_PHP_SDK
-* @access   public
-*/
 class Telesign {
 
 	protected $method;
