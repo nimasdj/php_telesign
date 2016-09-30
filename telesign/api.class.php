@@ -34,11 +34,11 @@ class Telesign {
 	function __construct(
 	        $customer_id, 
 		$secret_key, // required
-		$auth_method = "hmac-sha256", // also accepted: "hmac-sha1"
-		$api_url = "https://rest.telesign.com", 
 		$request_timeout = 30, // seconds
 		$headers = array(), 
-		$curl_options = array()
+		$curl_options = array(),
+		$auth_method = "hmac-sha256", // also accepted: "hmac-sha1"
+		$api_url = "https://rest.telesign.com"
 	) {
 
 		// the encoding key is actually the base64 decoded form of the secret key
